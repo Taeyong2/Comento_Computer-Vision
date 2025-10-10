@@ -1,6 +1,6 @@
 # Comento_Computer-Vision
 Computer Vision
-# 1주차 과제 설명
+# 2주차 과제 설명
 
 
 open CV 의 함수를 이용하여
