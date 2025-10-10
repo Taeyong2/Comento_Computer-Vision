@@ -48,7 +48,7 @@ Z = edges.astype(np.float32) # Depth 값을 Z 축으로 사용
 
 
 ###################엣 지 이 미 지 ####################
-Z = edges.astype(np.float32) # Depth 값을 Z 축으로 사용
+Z = gray.astype(np.float32) # Depth 값을 Z 축으로 사용
 ####################################################
 
 # 3D 좌표 생성
@@ -84,6 +84,6 @@ o3d.visualization.draw_geometries([pcd])
 
 
 # 결과 출력
-cv2.imshow('Depth Map', depth_map_gray)
+cv2.imshow('Depth Map', depth_map_edges)
 cv2.waitKey(0)
 cv2.destroyAllWindows()

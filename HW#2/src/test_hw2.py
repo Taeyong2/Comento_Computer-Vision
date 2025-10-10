@@ -1,7 +1,7 @@
 import numpy as np
 import pytest
 import cv2
-# 샘플 함수: 가짜 깊이 맵 생성
+
 def generate_depth_map(image):
     if image is None:
         raise ValueError("입력된 이미지가 없습니다.")
@@ -14,7 +14,7 @@ def generate_depth_map(image):
 # 테스트 코드
 def test_generate_depth_map():
     # 테스트할 함수
-    image = np.zeros((100, 100, 3), dtype=np.uint8) # 검정색 빈 이미지
+    image = np.zeros((100, 100, 3), dtype=np.uint8) # 검정색 빈 이미지 (모든 요소 값이 0)
     depth_map = generate_depth_map(image)
 
     assert depth_map.shape == image.shape, "출력 크기가 입력 크기와 다릅니다."
