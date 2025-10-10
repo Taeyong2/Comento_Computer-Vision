@@ -1,0 +1,12 @@
+train: /home/yun/yolov5/data/train/images
+val: /home/yun/yolov5/data/valid/images
+#test: test-dev2017.txt # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
+
+# Classes
+names:
+  0: red
+  1: green
+  2: yellow
+  3: left_arrow
+  4: rl
+  5: gl

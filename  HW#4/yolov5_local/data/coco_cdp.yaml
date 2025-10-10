@@ -1,0 +1,12 @@
+train: /home/miruware/yolov5/data/train/images
+val: /home/miruware/yolov5/data/valid/images
+test: /home/miruware/yolov5/data/test/images
+
+# Classes
+names:
+  0: green
+  1: red
+  2: yellow
+
+
+  

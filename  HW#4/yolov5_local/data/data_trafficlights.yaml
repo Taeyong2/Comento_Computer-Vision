@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['back_num', 'bus', 'front_num', 'side_num']
+
+roboflow:
+  workspace: yolo-bus
+  project: korean-bus
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/yolo-bus/korean-bus/dataset/5

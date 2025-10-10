@@ -1,0 +1,9 @@
+train: /home/miruware/yolov5/data/train/images
+val: /home/miruware/yolov5/data/valid/images
+test: /home/miruware/yolov5/data/test/images
+
+nc: 3
+names: ['green', 'red', 'yellow']
+
+
+  
